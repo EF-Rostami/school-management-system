@@ -154,18 +154,6 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 SESSION_COOKIE_AGE = 86400  # 24 hours in seconds
 SESSION_SAVE_EVERY_REQUEST = True
 
-
-# settings.py
-
-# Email Configuration (for development)
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.gmail.com'  # Or your SMTP server
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'efrostami272@gmail.com'  # Replace with your email
-# EMAIL_HOST_PASSWORD = '272@Django'  # Replace with your app password
-# DEFAULT_FROM_EMAIL = 'School Management System <efrostami272@gmail.com>'
-#For testing, you can use Django's console email backend:
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 MEDIA_URL = '/media/'
