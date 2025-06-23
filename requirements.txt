@@ -56,6 +56,9 @@ urllib3==2.3.0
 weasyprint==64.0
 webencodings==0.5.1
 Werkzeug==3.1.2
+psycopg2-binary
+dj-database-url
+
 zopfli==0.2.3.post1
 psycopg2-binary
 
